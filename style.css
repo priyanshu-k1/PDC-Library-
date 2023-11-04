@@ -1,8 +1,19 @@
-Textclass{
-    display:flexbox;
-    width: 50%;
+*{
+    padding:0px;
+    margin:0px;
 }
-Imgclass{
-    display: flexbox;
-    width: 50%;
+.main{
+    display:flex;
+    height:90vh;
+    width:80vw;
+    background-color: black;
+
+}
+.textArea{
+    width:50%;
+    background-color: blue;
+}
+.imgArea{
+    background-color: brown;
+    width:50%;
 }
