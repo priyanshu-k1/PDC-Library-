@@ -20,14 +20,13 @@ body {
   
   .card {
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     margin: 8px;
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color:orangered;
+    background-color:#1b2945;
     color: white;
   }
   img{

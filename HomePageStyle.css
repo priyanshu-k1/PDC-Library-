@@ -9,6 +9,12 @@
     font-family: montserrat;
     background-color: #1b2945;
   }
+  .collegenamelogo{
+    font-size:36px;
+    margin-top:-90px;
+    margin-left:350px;
+    color:#1b2945 ;
+  }
   nav{
     background: #fdfeff;
     height: 80px;
@@ -20,8 +26,10 @@
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+   
   }
   nav ul{
+    margin-top: -60px;
     float: right;
     margin-right: 20px;
   }
@@ -37,7 +45,7 @@
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a:hover{
+  .active,a:hover{
     color: #fdfeff;
     background: #1b2945;
     transition: .5s;
@@ -73,7 +81,7 @@
 }
 .card{
     margin:30px;
-    width:23rem;
+    width:18rem;
     height: 30rem;
     border-radius:15px;
     background-color:#db4f80; 
@@ -84,13 +92,18 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    transition: filter 0.6s ease-in;
 }
+.card:hover{
+  filter: drop-shadow(5px 0px 10px  #6554AF);}
 
 .bannerpic{
     height:230px;
     width:230px;
     border-radius:150px;
-    margin:30px 70px 20px;  /*top left */
+    margin:30px 29px 20px;  /*top left */
+    border:#000000 solid 2px;
 }
 
 
@@ -122,11 +135,13 @@
         background-color:#2c3e50;
     }
     ul{
+      z-index: 2;
       position: fixed;
       width: 100%;
       height: 100vh;
       background: #03305e;
-      top: 80px;
+      top:140px ;
+      /* ; */
       left: -100%;
       text-align: center;
       transition: all .5s;
@@ -147,6 +162,11 @@
     }
     #check:checked ~ ul{
       left: 0;
+      
     }
-    
+    .collegenamelogo{
+      font-size:13px;
+      margin-left:120px;
+      margin-top:-80px;
+    }
   }
