@@ -1,108 +1,106 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-    background-color: #1b2945;
-  }
-  p ,h1{
-    user-select: none;
-  }
-  .collegenamelogo{
-    font-size:36px;
-    margin-top:-90px;
-    margin-left:350px;
-    color:#1b2945 ;
-  }
-  nav{
-    background: #fdfeff;
-    height: 80px;
-    width: 100vw;
-  }
-  label.logo{
-    color: #000000;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-   
-  }
-  nav ul{
-    margin-top: -60px;
-    float: right;
-    margin-right: 20px;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: #020202;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-  .active,a:hover{
-    color: #fdfeff;
-    background: #1b2945;
-    transition: .5s;
-  }
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  .navlogo{
-    height:80px;
-    margin-left:-30px;
-  }
-  #check{
-    display: none;
-  }
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-color: #1b2945;
+  width:95vw;
+}
+p ,h1{
+  user-select: none;
+}
+.collegenamelogo{
+  font-size:36px;
+  margin-top:-90px;
+  margin-left:350px;
+  color:#1b2945 ;
+}
+nav{
+  background: #fdfeff;
+  height: 80px;
+  width: 100vw;
+}
+label.logo{
+  color: #000000;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  margin-top: -60px;
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #020202;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.active,a:hover{
+  color: #fdfeff;
+  background: #1b2945;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.navlogo{
+  height:80px;
+  margin-left:-50px;
+}
+#check{
+  display: none;
+}
 .container{
-    padding:10px;
-    flex-grow: 1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    /* gap: 50px; */
-    height:89vh;
-    width:100vw;
-    background-color:#1b2945;
-    margin-top:-40px;
+  padding:10px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height:85vh;
+  width:100vw;
+  background-color:#1b2945;
+  margin-top:-86px; 
 }
 .card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    
-    margin:30px;
-    width:18rem;
-    height: 30rem;
-    border-radius:15px;
-    background-color:#cbcbd4; 
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
-    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
-    transition: filter 0.6s ease-in;
-    margin-top:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:30px;
+  width:18rem;
+  height: 30rem;
+  border-radius:15px;
+  background-color:#cbcbd4; 
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+  transition: filter 0.6s ease-in;
+  margin-top:120px;
 }
 .card:hover{
   filter: drop-shadow(5px 0px 10px  #6554AF);}
@@ -117,19 +115,17 @@
 .description{
   padding:10px;
 }
-
 .input-box {
-  
   position: relative;
   height: 66px;
   max-width: 600px;
-  width: 100%;
+  width: 100vw;
   background: #fff;
   margin: 0 20px;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  margin-top:20px;
-  margin-left:450px;
+   margin-top:20px;
+  margin-left:450px; 
 }
 .input-box i, .input-box .button {
   position: absolute;
@@ -165,12 +161,13 @@
 .input-box .button:active {
   transform: translateY(-50%) scale(0.98);
 }
+
 @media screen and (max-width: 500px) {
   .input-box {
     padding:15px;
     height: 60px;
     margin-top:20px;
-    margin-left:0px;
+    margin-left:10px;
     width:100%;
   }
   .input-box i {
@@ -199,9 +196,11 @@
   @media (max-width: 858px){
     .checkbtn{
       display: block;
+      
     }
     .fa-bars{
         background-color:#2c3e50;
+        
     }
     ul{
       z-index: 3;
@@ -214,6 +213,7 @@
       text-align: center;
       transition: all .5s;
     }
+    
     nav ul li{
       display: block;
       margin: 50px 0;
@@ -231,6 +231,10 @@
     #check:checked ~ ul{
       left: 0;
       
+      
+    }
+    nav{
+      width:100vw;
     }
     .collegenamelogo{
        font-size:13px;
@@ -239,6 +243,10 @@
      
     }
     .container{
-      margin-top:20px;
+      flex-direction:row;
+      
+    }
+    .card{
+      margin-left: 40px;
     }
   }

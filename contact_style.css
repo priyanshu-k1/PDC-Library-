@@ -1,83 +1,189 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  html{
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-color: #1b2945;
+  width:95vw;
+}
+p ,h1{
+  user-select: none;
+}
+.collegenamelogo{
+  font-size:36px;
+  margin-top:-90px;
+  margin-left:350px;
+  color:#1b2945 ;
+}
+nav{
+  background: #fdfeff;
+  height: 80px;
+  width: 100vw;
+}
+label.logo{
+  color: #000000;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  margin-top: -60px;
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #020202;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.active,a:hover{
+  color: #fdfeff;
+  background: #1b2945;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.navlogo{
+  height:80px;
+  margin-left:-50px;
+}
+#check{
+  display: none;
+}
+.collegenamelogo{
+  margin-left:580px;
+}
+.flex-box{
+  display: flex;
+  width:100%;
+  height:79%;
+  background-color: #1b2945;
+}
+.container{
+  margin:32px;
+  margin-left:100px;
+  border-radius:12px;
+  height:70vh;
+  width:30vw;
+  background-color: #fdfeff;
+}
+img{
+width:60px;
+height:60px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  /* background-color: ; */
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius:20px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
   .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    background-color:#1b2945;
-    color: white;
-  }
-  img{
-    width:50%;
-    height:50%;
-    margin-left:105px;
-    transition: transform .2s;
-  }
-  img:hover{
-  transform: scale(1.1); }
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: orangered;
-    text-align: center;
-    cursor: pointer;
     width: 100%;
-    border-radius:20px;
+    display: block;
   }
-  a{
-    text-decoration: none;
-    color:white;
+ /* h2{
+    margin-left: 50px;
+  }*/
+}
+
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
   }
-  .button:hover {
-    background-color: #555;
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+    
+  }
+  .fa-bars{
+      background-color:#2c3e50;
+      
+  }
+  ul{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #03305e;
+    top:140px ;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-   /* h2{
-      margin-left: 50px;
-    }*/
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
+  nav ul li a{
+    color: #fdfeff;
+    font-size: 20px;
+  }
+ 
+  a:hover,a.active{
+    background: none;
+    color: #2762d8;
+  }
+  #check:checked ~ ul{
+    left: 0;
+    
+    
+  }
+  nav{
+    width:100vw;
+  }
+  .collegenamelogo{
+     font-size:13px;
+    margin-left:115px;
+    margin-top:-80px;
+   
+  }
+  .container{
+    flex-direction:row;
+    
+  }
+  .card{
+    margin-left: 40px;
+  }
+}

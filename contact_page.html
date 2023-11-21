@@ -1,65 +1,60 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Pinnacle Degree College-About</title>
-    <link rel="icon" type="image/x-icon" href="main/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="main/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pinnacle Degree College</title>
     <link rel="stylesheet" href="contact_style.css">
+    <script src="homepageScript.js"></script>
 </head>
-
 <body>
-
-    <div class="about-section">
-        <h1>About Us</h1>
-        <p>Our mission is to elevate the quality of life for the urban consumer with unparalleled convenience. Convenience is what makes us tick. It's what makes us get out of bed and say, "Let's do this."</p>
-        <p>
-            At Food Havana, a flexible work environment is real, ensuring our employees are safe and comfortable, and at their productive and creative best. Here's all you need to know about our 'Future of Work' policy.
-        </p>
-    </div>
-
-    <h2 style="text-align:center;font-family: Edwardian Script ITC;font-size: 50px;">Our Team</h2>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="">
-                <div class="container">
-                    <h2 >Priyanshu Kumar</h2>
-                    <p class="title">Lead Devloper</p>
-                    <p>You are an artist, no matter how often you make art or how much you make from it.</p>
-                    <p>priyanshukumarpdc.com</p>
-                    <p><button class="button"><a href="https://www.instagram.com/priyanshu.k19/?hl=en">Contact</a></button></p>
-                </div>
-            </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="main/logo.png" alt="logo" class="navlogo"></label>
+        <h1 class="collegenamelogo"><span class="auto-text"></span></h1>
+        <ul>
+            <li><a  href="homepage.html">Home</a></li>
+            <li><a href="https://pinnacleihm.com/about-us/">About</a></li>
+            <li><a class="active" href="contact_page.html">Contact</a></li>
+            <li><a href="/main.html">Login</a></li>
+        </ul>
+    </nav>
+    <h2 style="text-align:center;font-family: Edwardian Script ITC;font-size: 50px;margin-top:13px;">Our Team</h2>
+    <div class="flex-box">
+        <div class="container">
+            <img src="" alt="Person-1">
+            <h2>Naveen Sir</h2>
+            <p></p>
+            
         </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="">
-                <div class="container">
-                    <h2 >Chandana P</h2>
-                    <p class="title">CEO & Founder</p>
-                    <p>My career as CEO is pretty glamorous the toil related to the job remains hidden behind the curtain!.</p>
-                    <p>chandana@gmail.com</p>
-                    <p><button class="button"><a href="https://www.instagram.com/chandana_1608_/?hl=en">Contact</a></button></p>
-                </div>
-            </div>
+        <div class="container">
+            <img src="" alt="Person-2">
+            <h2>Priyanshu Kumar</h2>
+            <p></p>
+            
         </div>
-
-        <div class="column">
-            <div class="card">
-                <img src="">
-                <div class="container">
-                    <h2>Aditiya Das</h2>
-                    <p class="title">Designer</p>
-                    <p>I have the power to captivate our clients.We create visual art forms.</p>
-                    <p>adi@gmail.com</p>
-                    <p><button class="button"><a href="https://www.instagram.com/adidas.0852/?hl=en">Contact</a></button></p>
-                </div>
-            </div>
+        <div class="container">
+            <img src="" alt="Person-3">
+            <h2>Uddahp</h2>
+            <p></p>
+            
         </div>
     </div>
+ 
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    var typed = new Typed(".auto-text",{
+           strings: ['DEVLOPERS INFO'],
+           typeSpeed: 150,
+           backSpeed: 150,
+           loop:true})
+    </script>
 </body>
-
 </html>
