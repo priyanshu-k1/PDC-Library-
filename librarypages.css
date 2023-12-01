@@ -71,84 +71,39 @@
   #check{
     display: none;
   }
-  .input-box {
-    position: relative;
-    height: 66px;
-    max-width: 600px;
-    width: 100vw;
-    background: #fff;
-    margin: 0 20px;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    margin-top:20px;
-    margin-left:450px; 
-  }
-  .input-box i, .input-box .button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .input-box i {
-    left: 20px;
-    font-size: 30px;
-    color: #707070;
-  }
-  .input-box input {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    font-size: 18px;
-    font-weight: 400;
-    border: none;
-    padding: 0 155px 0 65px;
-    background-color: transparent;
-  }
-  .input-box .button {
-    right: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 6px;
-    background-color: #4070f4;
-    cursor: pointer;
-  }
-  .input-box .button:active {
-    transform: translateY(-50%) scale(0.98);
-  }
+
   .container{
     height:77vh;
     width:100vw;
     max-width:100vw;
-    background-color: #2762d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-
-
-
-
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fdfeff;
+    margin-top:30px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align:center;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #eb61a3;
+  }
+  .tableheading{
+    font-size: 20px;
+  }
+  h1{
+    color: #dddddd;
+    margin-top:20px;
+  }
   @media screen and (max-width: 500px) {
-    .input-box {
-      padding:15px;
-      height: 60px;
-      margin-top:20px;
-      margin-left:10px;
-      width:100%;
-    }
-    .input-box i {
-      left: 12px;
-      font-size: 25px;
-    }
-    .input-box input {
-      padding: 0 112px 0 50px;
-      width:360px;
-    }
-    .input-box .button {
-      right: 12px;
-      font-size: 14px;
-      padding: 8px 18px;
-    }
     .container{
       flex-direction: column;
     }
@@ -200,9 +155,6 @@
       #check:checked ~ ul{
         left: 0;
            
-      }
-      nav{
-        width:100vw;
       }
       .collegenamelogo{
          font-size:13px;

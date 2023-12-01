@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
   body{
-    font-family: montserrat;
+    font-family: 'Times New Roman', serif;
     background-color: #1b2945;
     width:95vw;
   }
@@ -173,7 +173,7 @@
   .routingbutton{
     padding:20px;
     font-size:18px;
-    margin-top:20px;
+    margin-top:40px;
     height:60px;
     width:250px;
     border-radius:30px;
@@ -205,6 +205,16 @@
     }
     .imageArea{
       margin-top:-85px;
+    }
+    .yearcard{
+      width:93vw;
+    }
+    p{
+      margin-top:20px;
+    }
+    .routingbutton{
+      height:60px;
+      width:300px;
     }
   }
     @media (max-width: 952px){
