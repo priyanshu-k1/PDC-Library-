@@ -1,18 +1,14 @@
-var sub1='programmingInC';
-var sub2='WEbTechnology';
-var sub3= 'DigitalPrincipal';
-var sub4='MATHEMETICALFOUNDATION';
-var sub5='CommunicationSkills';
- 
 
-
-const arrayofelement=[sub1,sub2,sub3,sub4,sub5];
-console.log(arrayofelement);
+const arrayofelement=['programmingInC','WEbTechnology','DigitalPrincipal',
+                      'MATHEMETICALFOUNDATION','CommunicationSkills','Programmingincpp','datastructure',
+                      'advancecomputernetworking','probablityandstacts','computerarchi'];
+// console.log(arrayofelement);
 
 function toremove(element){
-    for(var i=0;i<(arrayofelement.length-1);i++){
+    for(var i=0;i<(arrayofelement.length);i++){
         if(arrayofelement[i]!=element){
             document.getElementById(arrayofelement[i]).style.display="none";
+            console.log(arrayofelement[i]);
         }
     }
 
@@ -58,5 +54,32 @@ function GetNotes(){
         toremove('CommunicationSkills');
         document.getElementById('CommunicationSkills').style.display = 'block';
     }
-    // else if(selectedOptionValue==""){}
+    else if(selectedOptionValue=="computerarchi"){
+        header('2-Semester','green')
+       toremove('computerarchi');
+       document.getElementById('computerarchi').style.display = 'block';
+    }
+    else if(selectedOptionValue=="probablityandstacts"){
+        header('2-Semester','green')
+        toremove('probablityandstacts');
+        document.getElementById('probablityandstacts').style.display = 'block';
+    }
+    else if(selectedOptionValue=="advancecomputernetworking"){
+        header('2-Semester','green')
+        toremove('advancecomputernetworking');
+        document.getElementById('advancecomputernetworking').style.display = 'block';
+    }
+    else if(selectedOptionValue=="datastructure"){
+        header('2-Semester','green')
+        toremove('datastructure');
+        document.getElementById('datastructure').style.display = 'block';
+    }
+    else if(selectedOptionValue=="Programmingincpp"){
+        header('2-Semester','green')
+        toremove('Programmingincpp');
+        document.getElementById('Programmingincpp').style.display = 'block';
+    }
+    else{
+            header('Currently notes are not avaliable.','red')
+        }
 }
