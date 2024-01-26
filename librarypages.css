@@ -129,7 +129,7 @@
     border-collapse: collapse;
     width: 100%;
     table-layout: fixed;
-    background-color: #fdfeff;
+    background-color: #9b9da0;
     margin-top:30px;
     display: none
   }
@@ -143,7 +143,12 @@
     
   }
   tr:nth-child(even) {
-    background-color: rgb(5, 7, 138)
+    background-color: rgb(5, 7, 138);
+    color:#ffffff;
+    
+  }
+  a{
+    color:#ffffff;
   }
   .tableheading{
     font-size: 20px;
