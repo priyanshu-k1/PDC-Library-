@@ -15,13 +15,13 @@ p ,h1{
 }
 .collegenamelogo{
   font-size:36px;
-  margin-top:-90px;
+  margin-top:-80px;
   margin-left:350px;
   color:#1b2945 ;
 }
 nav{
   background: #fdfeff;
-  height: 80px;
+  height: 60px;
   width: 100vw;
 }
 label.logo{
@@ -63,7 +63,7 @@ nav ul li a{
   display: none;
 }
 .navlogo{
-  height:80px;
+  height:60px;
   margin-left:-50px;
 }
 #check{
@@ -71,10 +71,8 @@ nav ul li a{
 }
 .container{
   padding:10px;
-  flex-grow: 1;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction:column;
+  flex-direction:row;
   justify-content: center;
   align-items: center;
   height:85vh;
@@ -87,8 +85,8 @@ nav ul li a{
   flex-direction: column;
   align-items: center;
   margin:30px;
-  width:18rem;
-  height: 30rem;
+  width:30vw;
+  height: 70vh;
   border-radius:15px;
   background-color:#cbcbd4; 
   box-shadow:
@@ -124,8 +122,8 @@ nav ul li a{
   margin: 0 20px;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-   margin-top:20px;
-  margin-left:450px; 
+  margin-top:20px;
+  margin-left:390px; 
 }
 .input-box i, .input-box .button {
   position: absolute;
@@ -208,7 +206,7 @@ nav ul li a{
       width: 100%;
       height: 100vh;
       background: #03305e;
-      top:140px ;
+      top:120px ;
       left: -100%;
       text-align: center;
       transition: all .5s;
@@ -243,10 +241,20 @@ nav ul li a{
      
     }
     .container{
-      flex-direction:row;
+      flex-direction:column;
+      width:100vw;
+      height:100vh;
+      margin-top:540px;
       
     }
     .card{
-      margin-left: 40px;
+      width:80vw;
+      height: 100vh;
+      margin: 20px;
+      
     }
+    .checkbtn{
+      margin-top:-8px;
+    }
+
   }
