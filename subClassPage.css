@@ -179,7 +179,117 @@
     width:250px;
     border-radius:30px;
   }
- 
+  .main-container{
+    display:flex;
+    flex-direction: row;
+    height:88.7vh;
+    width:100vw;
+    padding:10px;
+  }
+  .carousel-container {
+    width: 65vw;
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    transition: filter 0.6s ease-in;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+  }
+  .carousel-container:hover{
+    filter: drop-shadow(5px 0px 10px  #6554AF);
+  }
+  .slide.active {
+    opacity: 1;
+  }
+  .infoarea{
+    height:35vh;
+    width:98vw;
+  }
+  .slideimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .toph1{
+    font-weight: bold;
+    font-size:35px;
+  }
+  .toph1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #3db166;
+    margin-top: 10px;
+    }
+  .foundersInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    margin-left:30px;
+    width:100vw;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+  .foundersprofile{
+    display: flex;
+    flex-direction: row;
+    background-color: #1b2945;
+    height:45vh;
+    width:98%;
+    overflow: hidden;
+  }
+   .founderinfotag{
+    user-select: none;
+    text-align: left;
+    color:#fdfeff;
+    font-size:1rem;
+   }
+  .headertags{
+    color: #3db166;
+  }
+  .collegedetailsptag{
+    user-select: none;
+    text-align: left;
+  
+  }
+  .founderpic{
+    width:35%;
+    height:100%;
+    
+  }
+  .contentbox{
+    height:100vh;
+    width:100vw;
+  }
+  .collegeDetails{
+    margin-top:15px;
+    width: 65vw;
+  }
+ .collegeInfoArea{
+  display: flex;
+  flex-direction: column;
+ }
+ .textWrapper{
+  display: flex;
+  flex-direction: column;
+ }
   @media screen and (max-width: 500px) {
     .input-box {
       padding:15px;
@@ -217,6 +327,29 @@
       height:60px;
       width:300px;
     }
+    .carousel-container{
+      margin-left:6px;
+      height: 45vh;
+    }
+    .main-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .carousel-container{
+      width:100vw;
+      margin-left:-8px;
+      height:30vh;
+    }
+    .collegeDetails{
+      width:100vw;
+      margin-left:-8px;
+
+    }
+    .foundersInfo{
+      margin-left: -10px;
+    }
+   
+   
   }
     @media (max-width: 952px){
       label.logo{
