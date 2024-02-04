@@ -16,13 +16,13 @@
   }
   .collegenamelogo{
     font-size:36px;
-    margin-top:-90px;
+    margin-top:-80px;
     margin-left:350px;
     color:#1b2945 ;
   }
   nav{
     background: #fdfeff;
-    height: 80px;
+    height: 60px;
     width:100vw;
     max-width:100vw;    
   }
@@ -65,7 +65,7 @@
     display: none;
   }
   .navlogo{
-    height:80px;
+    height:60px;
     margin-left:-50px;
   }
   #check{
@@ -174,6 +174,7 @@
     @media (max-width: 858px){
       .checkbtn{
         display: block;
+        margin-top:-10px;
         
       }
       .fa-bars{
@@ -186,7 +187,7 @@
         width: 100%;
         height: 100vh;
         background: #03305e;
-        top:140px ;
+        top:120px ;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -213,7 +214,7 @@
       .collegenamelogo{
          font-size:13px;
         margin-left:115px;
-        margin-top:-80px;
+        margin-top:-70px;
        
       }
       .get-books-button{
