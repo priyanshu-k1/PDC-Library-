@@ -191,7 +191,7 @@
   }
   .carousel-container {
     width: 65vw;
-    height: 55vh;
+    height: 60vh;
     overflow: hidden;
     position: relative;
     border-radius: 25px;
@@ -225,7 +225,7 @@
   }
   .toph1{
     font-weight: bold;
-    font-size:35px;
+    font-size:27px;
   }
   .toph1::after {
     content: "";
@@ -262,12 +262,13 @@
     user-select: none;
     text-align: left;
     color:#fdfeff;
-    font-size:1rem;
+    font-size:15px;
    }
   .headertags{
     color: #3db166;
   }
   .collegedetailsptag{
+    font-size:16px;
     user-select: none;
     text-align: left;
   
