@@ -8,7 +8,7 @@
 body{
   font-family: montserrat;
   background-color: #1b2945;
-  width:95vw;
+  overflow: hidden;
 }
 p ,h1{
   user-select: none;
@@ -169,7 +169,7 @@ nav ul li a{
     height: 60px;
     margin-top:20px;
     margin-left:10px;
-    width:100%;
+    width:96%;
   }
   .input-box i {
     left: 12px;
@@ -186,6 +186,9 @@ nav ul li a{
   }
 }
   @media (max-width: 952px){
+    body{
+      overflow: hidden;
+    }
     label.logo{
       font-size: 30px;
       padding-left: 50px;
@@ -236,13 +239,12 @@ nav ul li a{
     }
     nav{
       width:100vw;
+      overflow: hidden;
     }
     .collegenamelogo{
       z-index: 5;
       font-size:13px;
       margin-left:6qsm 5px;
-      /* margin-top:20px; */
-      /* background-color: red; */
       width:250px;
      
     }
