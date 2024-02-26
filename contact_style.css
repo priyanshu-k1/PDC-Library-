@@ -9,9 +9,10 @@
 }
 body{
   font-family: montserrat;
-  width:95vw;
-  background: rgb(2,0,36);
-  background: linear-gradient(36deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  background-color: #111820;
 }
 p ,h1{
   user-select: none;
@@ -75,69 +76,87 @@ nav ul li a{
 .collegenamelogo{
   margin-left:580px;
 }
-.flex-box{
-  display: flex;
+.container{
+  height:100vh;
   width:100vw;
-  height:79%;
-  align-items: center;
+  display: flex;
   justify-content: center;
 }
-.container{
-  display:flex;
-  flex-direction:column;
+.contentBox{
+  display: flex;
+  margin-top:40px;
+  height:30rem;
+  width:67rem;
+  background-color:#1f2e3f;
+  overflow: hidden;
+  border-radius:15px;
+  flex-direction: row;
+  animation: levitate 3s ease-in-out infinite alternate;
+}
+.imgArea{
+  padding:10px;
+  display: flex;
   align-items: center;
-  margin:32px;
-  /* margin-left:100px; */
-  border-radius:12px;
-  height:70vh;
-  width:25vw;
-  background-color: #fdfeff;
-  padding:50px;
+  justify-content: center;
+  width:30%;
+  height:100%;
+  flex-direction:column;
+  gap:10px;
 }
-img{
-width:60px;
-height:60px;
+#profilepic{
+  height:55%;
+  width:93%;
+  border-radius:50%;
+  border: 2px solid #ffffff;
 }
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  /* background-color: ; */
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  border-radius:20px;
+@keyframes levitate {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); 
+    filter: drop-shadow(5px 0px 10px  #6554AF);}
+  100% { transform: translateY(0); }
 }
-a{
-  text-decoration: none;
-  color:white;
+.Aboutarea{
+  display:flex;
+  flex-direction: row;
+  padding:25px;
+  height:100%;
+  width:70%;
+  background-color: #243952;
 }
-.button:hover {
-  background-color: #555;
+.fa{
+  color: #fdfeff;
+  transition: all ease-in;
 }
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-  .ourteam{
-    font-family: 'Ephesis', cursive;
-  }
+.fa:hover{
+  color: #2762d8;
+  transform: scale(1.5);
+}
+.socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  height:10%;
+  gap:25px;
+}
+h3,p{
+  color: #ffffff;
+}
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:19px;
 }
 
 @media (max-width: 952px){
+  body{
+    overflow-y: scroll;
+  }
   label.logo{
     font-size: 30px;
     padding-left: 50px;
   }
   nav ul li a{
     font-size: 16px;
-  }
-  .ourteam{
-    font-family: 'Ephesis', cursive;
   }
 }
 @media (max-width: 858px){
@@ -148,6 +167,36 @@ a{
   .fa-bars{
       background-color:#2c3e50;
       
+  }
+  #profilepic{
+    width:40%;
+    height:60%;
+  }
+  .container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentBox{
+    margin-top:0px;
+    margin-left: -10px;
+    flex-direction: column;
+    height:40rem;
+    width:22rem;
+  }
+  .imgArea{
+    /* flex-direction: row; */
+    width:100%;
+    height:45%;
+  }
+  p{
+    text-align:start;
+  }
+  .Aboutarea{
+    width:100%;
+    overflow-x: scroll;
+    padding:10px;
   }
   ul{
     z-index: 3;
