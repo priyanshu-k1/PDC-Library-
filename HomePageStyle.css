@@ -8,7 +8,7 @@
 body{
   font-family: montserrat;
   background-color: #1b2945;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 p ,h1{
   user-select: none;
