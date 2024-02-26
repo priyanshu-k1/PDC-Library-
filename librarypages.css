@@ -161,6 +161,9 @@
     .container{
       flex-direction: column;
     }
+    .collegenamelogo{
+      display:none;   
+    }
 }
     @media (max-width: 952px){
       label.logo{
@@ -169,6 +172,9 @@
       }
       nav ul li a{
         font-size: 16px;
+      }
+      .collegenamelogo{
+        display:none;   
       }
     }
     @media (max-width: 858px){
@@ -212,11 +218,8 @@
            
       }
       .collegenamelogo{
-         font-size:13px;
-        margin-left:115px;
-        margin-top:-70px;
-       
-      }
+        display:none;   
+      } 
       .get-books-button{
         margin-left:30px;
       }

@@ -85,18 +85,54 @@
   justify-content: center;
 }
 .card{
-  height:80%;
-  width:30%;
+  padding:10px;
+  height:34rem;
+  width:27rem;
   background-image: url(main/loginbg.jpg);
   border-radius:25px;
   border:4px solid  #fdfeff;
 }
 
-
-  
-
-
-
+#Student-pic{
+  margin-top:23px;
+  height:20rem;
+  width:20rem;
+  border-radius: 15px;
+  border:2px solid #000000;
+}
+.login>input{
+  margin:5px ;
+  padding:5px;
+  width:80%;
+  height:2rem;
+  border-radius:5px;
+  border:none;
+}
+.Buttons{
+  margin-top:29.9rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap:27px;
+  border:none;
+}
+.Buttons>button{
+  width:10rem;
+  height:2.3rem;
+  border-radius:15px;
+  border:none;
+}
+.Buttons>button:nth-child(1){
+  background-color: #fc3f01;
+}
+.Buttons>button:nth-child(2){
+  background-color: #3db166;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (max-width: 952px){
     label.logo{
       font-size: 30px;
@@ -150,7 +186,10 @@
       left: 0;
          
     }
-    nav{
-      width:100vw;
+    .collegenamelogo{
+       font-size:13px;
+      margin-left:115px;
+      margin-top:-70px;
+     
+    }
   }
-}
