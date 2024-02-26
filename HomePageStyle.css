@@ -8,7 +8,7 @@
 body{
   font-family: montserrat;
   background-color: #1b2945;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 p ,h1{
   user-select: none;
@@ -164,6 +164,9 @@ nav ul li a{
 }
 
 @media screen and (max-width: 500px) {
+  body{
+    overflow-y: scroll;
+  }
   .input-box {
     padding:15px;
     height: 60px;
@@ -187,7 +190,8 @@ nav ul li a{
 }
   @media (max-width: 952px){
     body{
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: scroll;
     }
     label.logo{
       font-size: 30px;
