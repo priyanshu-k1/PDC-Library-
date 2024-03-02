@@ -11,7 +11,7 @@ This web application serves as a centralized repository of study materials for s
 
 **Technologies Used:**
 
-- **Front-end:** HTML, CSS, JavaScript (consider leveraging modern frameworks like React, Vue, or Angular for enhanced interactivity and scalability)
+- **Front-end:** HTML, CSS, JavaScript.
 **Getting Started:**
 
 1. **Clone the Repository:** Use `git@github.com:priyanshu-k1/PDC-Library-.git` to download the project's source code.
