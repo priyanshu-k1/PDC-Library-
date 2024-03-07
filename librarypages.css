@@ -164,6 +164,7 @@
   .get-books-button:hover{
     filter: drop-shadow(5px 0px 10px  #6554AF);
   }
+  /* for college computer */
   @media(max-width:1202px ){
     .collegenamelogo{
       margin-left:250px;

@@ -8,7 +8,7 @@
 body{
   font-family: montserrat;
   background-color: #1b2945;
-  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 p ,h1{
   user-select: none;
@@ -20,7 +20,6 @@ p ,h1{
   margin-left:320px;
   color:#1b2945 ;
   width:640px;
-  overflow:hidden;
 }
 nav{
   background: #fdfeff;
@@ -164,7 +163,8 @@ nav ul li a{
 .input-box .button:active {
   transform: translateY(-50%) scale(0.98);
 }
-@media(max-width:1202px ){
+/* for college computer */
+/* @media(max-width:1202px ){
   .collegenamelogo{
     margin-left:250px;
     font-size:27px;
@@ -187,18 +187,9 @@ nav ul li a{
   height:50px;
   margin-left:330px;
  }
-}
-
-/* @media screen and (max-width:425px){
-  *{
-    overflow: visible;
-  }
-   .container{
-    background-color: crimson;
-    margin-top:0px;
-   }
-  
 } */
+
+
 
 @media screen and (max-width: 500px) {
   .input-box {
@@ -224,9 +215,9 @@ nav ul li a{
 }
   @media (max-width: 952px){
     
-    body{
+    /* body{
       overflow: hidden;
-    }
+    } */
     label.logo{
       font-size: 30px;
       padding-left: 50px;

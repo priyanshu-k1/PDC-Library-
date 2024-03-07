@@ -387,7 +387,8 @@
      
     }
   }
-  @media(max-width:1202px ){
+  /* for college computer */
+  /* @media(max-width:1202px ){
     .collegenamelogo{
       margin-left:250px;
       font-size:23px;
@@ -399,7 +400,7 @@
       margin-left:350px;
      }
     
-  } 
+  }  */
   @media (max-width: 952px){
       label.logo{
         font-size: 30px;
