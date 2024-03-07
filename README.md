@@ -5,15 +5,13 @@ This web application serves as a centralized repository of study materials for s
 - **Organized Resource Listing:** Streamlined categorization of study materials by program, subject, and semester, allowing students to quickly locate relevant resources.
 - **Intuitive Search:** Powerful search functionality facilitates efficient navigation based on keywords, tags, or course codes.
 - **Multiple File Formats:** Support for diverse file types (PDF, DOCX, PPTX, etc.) caters to different learning styles and preferences.
-- **Collaborative Learning:** Integration of discussion forums or other tools to enable students to interact, share insights, and support each other academically.
-- **Accessibility:** Adherence to WCAG guidelines ensures the site is usable by people with disabilities.
 - **Responsiveness:** Optimized for seamless display and interaction on a variety of devices, including desktops, tablets, and smartphones.
 - **Mobile-First Development:** Prioritization of mobile compatibility for convenient on-the-go access to study materials.
 - **Offline Functionality (Optional):** If feasible, explore mechanisms for offline access to downloaded resources, enhancing learning flexibility.
 
 **Technologies Used:**
 
-- **Front-end:** HTML, CSS, JavaScript (consider leveraging modern frameworks like React, Vue, or Angular for enhanced interactivity and scalability)
+- **Front-end:** HTML, CSS, JavaScript.
 **Getting Started:**
 
 1. **Clone the Repository:** Use `git@github.com:priyanshu-k1/PDC-Library-.git` to download the project's source code.
