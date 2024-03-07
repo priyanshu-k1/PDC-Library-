@@ -133,6 +133,17 @@
   flex-direction: column;
   align-items: center;
 }
+@media(max-width:1202px ){
+  .collegenamelogo{
+    margin-left:450px;
+    font-size:33px;
+    text-align: left;
+  }
+  ul{
+    padding:-3px;
+    height:80px;
+  }
+}
 @media (max-width: 952px){
     label.logo{
       font-size: 30px;

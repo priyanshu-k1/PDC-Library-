@@ -156,6 +156,25 @@
   h1{
     margin-top:20px;
   }
+  .get-books-button{
+    border: none;
+   
+    transition: all  0.6s ease-in;
+  }
+  .get-books-button:hover{
+    filter: drop-shadow(5px 0px 10px  #6554AF);
+  }
+  @media(max-width:1202px ){
+    .collegenamelogo{
+      margin-left:250px;
+      font-size:23px;
+      text-align: left;
+    }
+    ul{
+      padding:10px;
+      height:80px;
+    }
+  } 
  
   @media screen and (max-width: 500px) {
     .container{

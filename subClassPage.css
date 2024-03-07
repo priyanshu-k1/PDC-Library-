@@ -166,6 +166,7 @@
   .yearpicture:hover{
     transform: scale(1.2) ;
   }
+  
   .semheader{
     margin-top:15px;
   }
@@ -350,6 +351,9 @@
     .yearcard{
       width:93vw;
     }
+    .yearpicture:focus{
+      transform: scale(1.2) ;
+    }
     p{
       margin-top:20px;
     }
@@ -382,10 +386,21 @@
       display:none;
      
     }
-   
-   
   }
-    @media (max-width: 952px){
+  @media(max-width:1202px ){
+    .collegenamelogo{
+      margin-left:250px;
+      font-size:23px;
+      text-align: left;
+    }
+    .input-box{
+      width:500px;
+      height:50px;
+      margin-left:350px;
+     }
+    
+  } 
+  @media (max-width: 952px){
       label.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -397,6 +412,9 @@
         display:none;
        
       }
+      .yearpicture:focus{
+        transform: scale(1.2) ;
+      }
     }
     @media (max-width: 858px){
       .checkbtn{
@@ -407,6 +425,9 @@
       .fa-bars{
           background-color:#2c3e50;
           
+      }
+      .yearpicture:focus{
+        transform: scale(1.2) ;
       }
       ul{
         z-index: 3;

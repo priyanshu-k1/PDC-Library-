@@ -146,6 +146,17 @@ p{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size:19px;
 }
+@media(max-width:1202px ){
+  .collegenamelogo{
+    margin-left:250px;
+    font-size:23px;
+    text-align: left;
+  }
+  ul{
+    padding:10px;
+    height:80px;
+  }
+}
 
 @media (max-width: 952px){
   body{

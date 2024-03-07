@@ -8,7 +8,7 @@
 body{
   font-family: montserrat;
   background-color: #1b2945;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 p ,h1{
   user-select: none;
@@ -82,13 +82,14 @@ nav ul li a{
   width:100vw;
   background-color:#1b2945;
   margin-top:-86px; 
+
 }
 .card{
   display:flex;
   flex-direction: column;
   align-items: center;
   margin:30px;
-  width:30vw;
+  width:25vw;
   height: 70vh;
   border-radius:15px;
   background-color:#cbcbd4; 
@@ -104,7 +105,8 @@ nav ul li a{
   margin-top:120px;
 }
 .card:hover{
-  filter: drop-shadow(5px 0px 10px  #6554AF);}
+  filter: drop-shadow(5px 0px 10px  #6554AF);
+}
 
 .bannerpic{
     height:230px;
@@ -162,12 +164,43 @@ nav ul li a{
 .input-box .button:active {
   transform: translateY(-50%) scale(0.98);
 }
+@media(max-width:1202px ){
+  .collegenamelogo{
+    margin-left:250px;
+    font-size:27px;
+    text-align: left;
+  }
+ .card{
+  margin-bottom:10px;
+  width:23vw;
+  height:57vh;
+ }
+ .bannerpic{
+  width:98%;
+  height:50%;
+ }
+ .description{
+  font-size:12px;
+ }
+ .input-box{
+  width:500px;
+  height:50px;
+  margin-left:330px;
+ }
+}
+
+/* @media screen and (max-width:425px){
+  *{
+    overflow: visible;
+  }
+   .container{
+    background-color: crimson;
+    margin-top:0px;
+   }
+  
+} */
 
 @media screen and (max-width: 500px) {
-  body{
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
   .input-box {
     padding:15px;
     height: 60px;
@@ -190,9 +223,9 @@ nav ul li a{
   }
 }
   @media (max-width: 952px){
+    
     body{
-      overflow-x: hidden;
-      overflow-y: scroll;
+      overflow: hidden;
     }
     label.logo{
       font-size: 30px;
@@ -200,9 +233,6 @@ nav ul li a{
     }
     nav ul li a{
       font-size: 16px;
-    }
-    .collegenamelogo{
-      display:none;   
     }
   }
   @media (max-width: 858px){
@@ -250,13 +280,17 @@ nav ul li a{
       overflow: hidden;
     }
     .collegenamelogo{
-      display:none;   
+      z-index: 5;
+      font-size:13px;
+      margin-left:6qsm 5px;
+      width:250px;
+     
     }
     .container{
       flex-direction:column;
       width:100vw;
       height:100vh;
-      margin-top:580px;
+      margin-top:540px;
       
     }
     .card{
