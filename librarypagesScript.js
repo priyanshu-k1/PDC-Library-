@@ -1,19 +1,18 @@
+
 const arrayofelement=['programmingInC','WEbTechnology','DigitalPrincipal',
                       'MATHEMETICALFOUNDATION','CommunicationSkills','Programmingincpp','datastructure',
                       'advancecomputernetworking','probablityandstacts','computerarchi'];
 // console.log(arrayofelement);
-function toremove(element) {
-    for (var i = 0; i < arrayofelement.length; i++) {
-        if (arrayofelement[i] !== element) {
-            try{
-                document.getElementById(arrayofelement[i]).style.display = "none";}
-            finally{
-                console.log(arrayofelement[i])
-            }
+
+function toremove(element){
+    for(var i=0;i<(arrayofelement.length);i++){
+        if(arrayofelement[i]!=element){
+            document.getElementById(arrayofelement[i]).style.display="none";
+            console.log(arrayofelement[i]);
         }
     }
-}
 
+}
 function header(text,color){
     document.getElementById('counter').style.display = 'block';
     document.getElementById('counter').style.color =color;
